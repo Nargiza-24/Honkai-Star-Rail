@@ -1,77 +1,192 @@
-header{
-    background: #0776A0;
-    width: 959px;
-    height: 101px;
-
-}
-
-header img {
-    position: absolute;
-    margin: 20px 839px 21px 15px;
-}
-
-a{
-    text-decoration: none;
-    border-radius: 10px;
-    color:black;
-    background:#FFB600;
-    font-size: 36px;
-    position: absolute;
-    padding:0px 5px 0px 5px;
-    margin:40px 689px 21px 135px;
-
-}
-
-.zagolovok1{
-    font-size: 48px;
-    width: 396px;
-    height: 65px;
-    margin-left: 280px;
-    margin-top: 34px;
-}
-
-p img{
-    margin: 15px;
-}
-
 body{
-    font-family: Arial;
+    background: url("HonkaiStarRail.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-h2 {
-    color: red;
-    font-size: 36px;
-    margin-left: 42px;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(255 255 255 / 5%);
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
 }
 
-ul {
-    list-style: url("https://learn.algoritmika.org/uploads/2021/01/Arrow%201_0_1611261359.svg");
-    margin-left:42px;
-    font-size: 24px;
+.starraillogo{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
 }
 
-.prazdniki {
-    border-top: 5px solid #000000;
-    border-bottom: 5px solid #000000;
-    width: 596px;
+.header a{
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgba(30, 144, 255, 0.8);
+    border-radius: 20px 10px 20px 10px
+}
 
-    padding: 32px 182px 32px 182px;
-    font-size: 48px;
+.versioninfo{
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1E90FF;
+    background-color: white;
+    border-radius: 20px 10px 20px 10px;
+}
+
+
+.h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 h1{
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9400D3;
+    background-color: #00FFFF;
+    border-radius: 20px 10px 20px 10px;
+    width: 400px;
+}
+
+.events{
+    margin-top: 45px;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.events h1{
+    order: 1;
+    position: absolute;
+    margin-right: 640px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
     
 }
 
-footer {
-    background: #024C68;
-    width: 959px;
-    height: 161px;
-    padding: 10px;
-}
-
-footer p {
-    color: white;
+.events p{
+    order: 2;
+    margin-top: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
     font-size: 24px;
-    margin-top: 30px;
-    margin-left: 30px;
+    color: black;
+    background-color: rgba(30, 144, 255, 0.8);
+    padding: 30px;
+    border-radius: 30px 25px 30px 25px;
+    margin-right: 15px;
 }
 
+.events img{
+    order: 3;
+    margin-left: auto;
+    width: 670px;
+    height: auto;
+    float: right;
+}
+
+.characters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+
+.characters img{
+    margin: 0 auto;
+    display: block;
+    width: 230px;
+    height: 230px;
+    /* padding: 10px; */
+    border-radius: 30px 45px 30px 45px;
+    border: 1px solid white;
+}
+.characters_9_16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.characters_9_16 img{
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    height: auto;
+    /* padding: 10px; */
+    border-radius: 30px 45px 30px 45px;
+    border: 1px solid white;
+}
+.gallery{
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    background-color: cornflowerblue;
+    padding: 35px;
+}
+
+
+.characters2{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    background-color: #bc8f8f;
+    padding: 100px 0px 100px 0px;
+}
+
+.characters2 img{
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 30px 45px 30px 45px;
+    position: absolute;
+    padding-top: 220px;
+    padding-left: 85%;
+}
+.characters2 div{
+    float: left;
+}
